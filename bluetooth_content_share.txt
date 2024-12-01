@@ -1,0 +1,105 @@
+
+HTML (index.html):
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landrick Adkins Sinior | Hip Hop Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Landrick Adkins Sinior</h1>
+        <nav>
+            <ul>
+                <li><a href="#music">Free Music</a></li>
+                <li><a href="#videos">Free Videos</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#arc-box">Arc Box</a></li>
+                <li><a href="#star-stage">Star Stage 9</a></li>
+                <li><a href="#donate">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="music">
+        <h2>Free Music</h2>
+        <!-- Add music content here -->
+    </section>
+    <section id="videos">
+        <h2>Free Videos</h2>
+        <!-- Add videos content here -->
+    </section>
+    <section id="bio">
+        <h2>Bio</h2>
+        <!-- Add bio content here -->
+    </section>
+    <section id="booking">
+        <h2>Booking Information</h2>
+        <!-- Add booking information here -->
+    </section>
+    <section id="arc-box">
+        <h2>Arc Box</h2>
+        <!-- Add Arc Box content here -->
+    </section>
+    <section id="star-stage">
+        <h2>Star Stage 9</h2>
+        <!-- Add Star Stage content here -->
+    </section>
+    <section id="donate">
+        <h2>Donate</h2>
+        <!-- Add donation section here -->
+    </section>
+    <footer>
+        <p>&copy; 2021 Landrick Adkins Sinior. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+CSS (styles.css):
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+```
+
+
